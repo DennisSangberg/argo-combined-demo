@@ -4,8 +4,7 @@ metadata:
   name: argo-workflows
   namespace: argo
   annotations:
-    ingress.kubernetes.io/ssl-redirect: "false"
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/backend-protocol: https
 spec:
   ingressClassName: nginx
   rules:
