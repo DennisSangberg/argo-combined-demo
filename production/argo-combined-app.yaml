@@ -10,7 +10,7 @@ spec:
   source:
     path: kustomize/overlays/production
     repoURL: https://github.com/DennisSangberg/argo-combined-app
-    targetRevision: HEAD
+    targetRevision: testing
     kustomize:
       images:
       - dennissangbergparkonnet/argo-combined-app:latest

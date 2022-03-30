@@ -10,7 +10,7 @@ spec:
   source:
     path: charts/prometheus
     repoURL: https://github.com/prometheus-community/helm-charts.git
-    targetRevision: HEAD
+    targetRevision: testing
   destination:
     namespace: monitoring
     server: https://kubernetes.default.svc
